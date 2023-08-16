@@ -25,7 +25,7 @@ To use WME, follow these steps:
 ```python
 import WorkshopMetadataExtract as WME
 
-WME.API_KEY = "YOUR STEAM API KEY"
+WME.set_api_key("YOUR STEAM API KEY")
 ```
 
 2. Create a WorkshopItem object with the workshop file URL:
