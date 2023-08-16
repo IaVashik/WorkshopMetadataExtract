@@ -1,5 +1,5 @@
 import WorkshopMetadataExtract as WME
-WME.API_KEY = "YOUR STEAM API KEY"
+WME.set_api_key("YOUR API KEY")
 
 map_item = WME.WorkshopItem("https://steamcommunity.com/sharedfiles/filedetails/?id=2934902806")
 
