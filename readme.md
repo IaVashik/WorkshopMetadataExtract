@@ -1,5 +1,5 @@
 <div align="center">
-<img src="Other\logo.png" alt="Logo" >
+<img src="https://i.ibb.co/hYvQdk9/logo-back.png" alt="Logo" >
 
 <h2 align="center">
     Discover. Download. Dominate! :D
@@ -11,24 +11,19 @@ Workshop Metadata Extract (WME) is a Python library that allows you to extract m
 
 
 ## Installation
-Before using WME, ensure that you have the following requirements installed:
-
-- Python 3.x
-- Requests library
-
-To install the requests library, run the following command:
-
-```shell
-pip install requests
+Install the current version with PyPI:
 ```
+pip install WorkshopMetadataExtract
+```
+
 
 ## Usage
 To use WME, follow these steps:
 
-1. Import the WorkshopExplorer module and set your Steam API key:
+1. Import the WorkshopMetadataExtract module and set your Steam API key:
 
 ```python
-import WorkshopExplorer as WME
+import WorkshopMetadataExtract as WME
 
 WME.API_KEY = "YOUR STEAM API KEY"
 ```
@@ -44,6 +39,8 @@ map_item = WME.WorkshopItem("WORKSHOP_FILE_URL")
 ```python
 map_item.download_file("path_to_save/")
 ```
+
+If you're not sure how to use it, check out the examples provided in the `Examples` folder.
 
 ## Functions and Descriptions
 - `WorkshopItem.get_fileid()`: Returns the file ID as an integer.

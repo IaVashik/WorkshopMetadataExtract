@@ -1,9 +1,7 @@
-import WorkshopExplorer as WME
-
+import WorkshopMetadataExtract as WME
 WME.API_KEY = "YOUR STEAM API KEY"
 
 map_item = WME.WorkshopItem("https://steamcommunity.com/sharedfiles/filedetails/?id=2934902806")
-
 
 print("File ID:", map_item.get_fileid())
 print("Creator ID:", map_item.get_creator_id())
@@ -24,10 +22,6 @@ print("Map Tags:", map_item.get_map_tags())
 print(" Map Views:", map_item.get_map_views())
 print("Map Followers:", map_item.get_map_followers())
 print("Subscriptions:", map_item.get_subscriptions())
-
-print("\nLoading the map...")
-map_item.download_file("example_map/")
-
 
 print("Search info_player_start id in the map...")
 bsp_content = map_item.get_file_content()
