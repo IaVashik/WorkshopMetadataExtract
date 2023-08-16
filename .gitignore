@@ -1,3 +1,4 @@
-*.psd
 __pycache__
 example_map
+pypi
+*.bsp
