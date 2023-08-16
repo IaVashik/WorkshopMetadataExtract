@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://i.ibb.co/hYvQdk9/logo-back.png" alt="Logo" >
+<img src="Other/logo.png" alt="Logo" >
 
 <h2 align="center">
     Discover. Download. Dominate! :D
